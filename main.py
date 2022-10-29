@@ -10,7 +10,7 @@ from random import randint
 
 api_id = 14732436
 api_hash = "6a6dcca1828828119158463284f00897"
-TOKEN = "5717563450:AAFQtABtb8TY4tyJ8Vs6pi1OeA39d04hDBE"
+TOKEN = "5703635162:AAEaqkMVjOMkyQcI_JHjFmttrVDxRVyv3JY"
 client = TelegramClient('bot',api_id,api_hash).start(bot_token=TOKEN)
 
 ADMIN = [2073457253]        # metti id tuo
