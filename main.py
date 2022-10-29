@@ -1,5 +1,5 @@
 import telethon
-
+import traceback
 
 from datetime import datetime
 from telethon.sync import TelegramClient
