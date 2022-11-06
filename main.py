@@ -28,9 +28,9 @@ async def start(event):
         user = await event.get_sender()
         mention = get_mention(user.id, user.first_name)
         if not user.id in ADMIN:        
-            await event.respond(f"👋🏻 {mention}.\n\n<b>Questo bot è stato ideato per @QueezyStock 🔒\n\n❌<i>NON</i> sei admin")      # modifica @ stock
+            await event.respond(f"Hi <i>{mention}</i>Welcome to <b><tg-spoiler>Queezy PostBot</tg-spoiler></b> Bot 🌹 You are not a channel admin For buy Admin subscription DM to admin 👨‍💻Admin id is <b>@Queezy7</b> 💯🆔| @Queezysdpostbot")      # modifica @ stock
         else:
-            await event.respond(f"👋🏻 {mention}.\n\n<b>Questo bot è stato ideato per @QueezyStock 🔒\n\n✅<i>SEI</i> admin",      # modifica @ stock
+            await event.respond(f"Hi <i>{mention}</i>Welcome to <b><tg-spoiler>Queezy PostBot</tg-spoiler></b>Bot 🌹\nYou are admin ✅",      # modifica @ stock
                         buttons = [[Button.inline("📬 Post","post1")],
                                    [Button.inline("✍ Comandi","cmd")]])
 
