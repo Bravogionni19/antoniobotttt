@@ -8,13 +8,12 @@ from telethon import TelegramClient,events,sync,Button
 from telethon import functions,types
 from random import randint
 
-if not os.path.exists("bot"):
-    os.mkdir("bot")
+if not os.path.exists("session_bot"):
+    os.mkdir("session_bot")
 
 api_id = 14732436
 api_hash = "6a6dcca1828828119158463284f00897"
-TOKEN = "5703635162:AAEaqkMVjOMkyQcI_JHjFmttrVDxRVyv3JY"
-client = TelegramClient('bot',api_id,api_hash).start(bot_token=TOKEN)
+client = TelegramClient('session_bot',api_id,api_hash).start(bot_token="5703635162:AAEaqkMVjOMkyQcI_JHjFmttrVDxRVyv3JY")
 
 ADMIN = [2073457253]        # metti id tuo
 OWNER = [2073457253]        # metti id tuo 
