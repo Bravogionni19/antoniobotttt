@@ -1,4 +1,5 @@
 import telethon
+import os
 import traceback
 
 from datetime import datetime
@@ -7,6 +8,8 @@ from telethon import TelegramClient,events,sync,Button
 from telethon import functions,types
 from random import randint
 
+if not os.path.exists("bot"):
+    os.mkdir("bot")
 
 api_id = 14732436
 api_hash = "6a6dcca1828828119158463284f00897"
