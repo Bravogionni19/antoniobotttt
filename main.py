@@ -13,7 +13,7 @@ if not os.path.exists("session_bot"):
 
 api_id = 14732436
 api_hash = "6a6dcca1828828119158463284f00897"
-client = TelegramClient('session_bot',api_id,api_hash).start(bot_token="5703635162:AAEaqkMVjOMkyQcI_JHjFmttrVDxRVyv3JY")
+client = TelegramClient('session_bot/bot_token',api_id,api_hash).start(bot_token="5703635162:AAEaqkMVjOMkyQcI_JHjFmttrVDxRVyv3JY")
 
 ADMIN = [2073457253]        # metti id tuo
 OWNER = [2073457253]        # metti id tuo 
